@@ -1,0 +1,112 @@
+
+/* Screens Resolution : 992px Extra Large Devices 
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+
+/*	 ---------------------------------
+	3. LEFT SECTION
+	--------------------------------- */
+
+	section.left-section{ float: none; width: 100%; height: 50%; }
+	section.left-section a.logo img#logo{margin-left: -30px;}
+	
+}
+
+/* Screens Resolution : 992px Large Devices 
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 992px) {
+	
+	
+	div.main-area{ position: relative; height: 200vh; }
+
+
+/*	 ---------------------------------
+	3. LEFT SECTION
+	--------------------------------- */
+
+	section.left-section{ float: none; width: 100%; height: 50%; }
+	section.left-section a.logo img#logo{margin-left: 115px; margin-top: -30px;}
+	
+	section.left-section .main-content{ padding: 570px 0;} 
+
+	
+	div.main-content .email-input-area{ width: 100%;}
+	
+	div.main-content .email-input-area .email{ padding: 0 115px 0 20px; }
+	
+	div.main-content .email-input-area .button{ width: 100px; } 
+	
+	section.left-section .footer-icons > li > a > svg.sc-bdVaJa.fUuvxv path{ height: 30px; line-height: 28px; width: 30px;}
+	section.left-section .footer-icons {margin-bottom: 35rem;}
+
+	
+	
+/*	 ---------------------------------
+	4. RIGHT SECTION
+	--------------------------------- */
+
+	section.right-section{bottom: auto; width: 100%; height: 0;}
+	section.right-section img#cover{width: 100%; margin-top: 100px;}
+
+}
+
+
+/* Screens Resolution : 768px Medium Devices 
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 768px) {
+	
+	/* ---------------------------------
+	1. PRIMARY STYLES
+	--------------------------------- */
+
+	p{ line-height: 1.4; }
+
+	h1{ font-size: 2.6em; line-height: 1; }
+	h2{ font-size: 2.2em; line-height: 1.1; }
+	h3{ font-size: 1.8em; }
+
+
+/*	 ---------------------------------
+	3. LEFT SECTION
+	--------------------------------- */
+
+	section.left-section{width: 100%;}
+	section.left-section a.logo img#logo{margin-left: 100px; margin-top: -35px;}
+	section.left-section .main-content{padding: 650px 0;} 
+	section.left-section .footer-icons {margin-bottom: 35rem;}
+
+	/* ---------------------------------
+	4. RIGHT SECTION
+	--------------------------------- */
+
+	section.right-section{bottom: auto; width: 100%; height: 0;}
+	section.right-section img#cover{width: 100%; margin-top: 90px;}
+
+	
+}
+
+/* Screens Resolution : 479px Extra Small Devices 
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 479px) {
+
+	/* ---------------------------------
+	1. PRIMARY STYLES
+	--------------------------------- */
+
+	body{ font-size: 15px;}
+	
+}
+
+/* Screens Resolution : 359px Extra Small Devices 
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 359px) {
+
+
+	
+}
+
+/* Screens Resolution : 290px Extra Small Devices 
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 290px) {
+	
+}
